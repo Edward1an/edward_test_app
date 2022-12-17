@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-import 'cubit/counter_cubit.dart';
+import 'package:edward_test_app/business_logic/cubit/counter_cubit.dart';
 
 
 void main() {
@@ -38,18 +38,6 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  // int _counter = 0;
-
-//   void _increment() {
-//     setState(() {
-// _counter++;
-//     });
-//   }
-//   void _decrement(){
-//     setState(() {
-//       _counter--;
-//     });
-//   }
   @override
   Widget build(BuildContext context) {
 
